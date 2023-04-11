@@ -4,7 +4,7 @@ import {FaUser} from "react-icons/fa"
 
 const Header = () => {
   return (
-    <div className='grid grid-flow-col p-3 shadow-md'>
+    <div className='grid grid-flow-col p-3 shadow-lg mb-2'>
       {/* Left Logo */}
       <div className='flex justify-start items-center col-span-1'>
         <GiHamburgerMenu/>
