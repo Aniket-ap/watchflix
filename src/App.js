@@ -1,11 +1,28 @@
 import "./App.css";
+import Body from "./components/Body";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Watchflix</h1>
-    </div>
+    <>
+      <Header />
+      <Body />
+    </>
   );
 }
 
 export default App;
+
+/**
+ *
+ * Head
+ * Body
+ *    Sidebar
+ *          MenuItems
+ *    MainContainer
+ *          ButtonList
+ *          VideoContainer
+ *                VideoCard
+ * Footer
+ *
+ */
